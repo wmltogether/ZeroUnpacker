@@ -1,0 +1,17 @@
+﻿<Window x:Class="ZeroUnpacker.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ZeroUnpacker"
+        mc:Ignorable="d"
+        Title="PS2 Fatal Frame Unpacker" Height="439.853" Width="344.401" ResizeMode="NoResize">
+    <Grid Margin="0,0,42,36">
+        <Button x:Name="button" Content="Unpack" HorizontalAlignment="Left" Height="20" Margin="123,314,0,0" VerticalAlignment="Top" Width="99" FontSize="10.667" Click="button_Click"/>
+        <CheckBox x:Name="checkBox" Content="使用外部Deless解压工具" HorizontalAlignment="Left" Margin="96,259,0,0" VerticalAlignment="Top"/>
+        <CheckBox x:Name="checkBox1" Content="使用内置的Less压缩库" HorizontalAlignment="Left" Margin="96,287,0,0" VerticalAlignment="Top" IsEnabled="False"/>
+        <Button x:Name="button1" Content="Patch" HorizontalAlignment="Left" Margin="123,343,0,0" VerticalAlignment="Top" Width="99" Click="button1_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="231" Margin="59,10,0,0" VerticalAlignment="Top" Width="211" Source="main.png" Stretch="None"/>
+
+    </Grid>
+</Window>
