@@ -1,0 +1,51 @@
+comment=Fatal Frame 3 cheat
+
+//Fatal Frame 3 宽屏金手指
+patch=1,EE,203E185C,extended,3F400000
+//如果是真机，修改ELF的0022106C
+patch=1,EE,0032006C,extended,3F400000
+patch=1,EE,00320070,extended,3F600000
+
+//删除bloom特效错误 (fixes bloom glitch)
+//patch=1,EE,20365008,word,43A30000 // 43A00000 - TC X-offset
+//patch=1,EE,2036500C,word,43660000 // 43600000 - TC Y-offset
+//FMV's fix(ELF HACK)
+//如果是真机，修改ELF的00269144
+patch=1,EE,00368140,word,44200000 //44200000
+patch=1,EE,00368148,word,3e333333 //3f800000
+//FMV's fix(New)
+patch=1,EE,00212808,word,0c09aa90 //c5e00000
+patch=1,EE,0021280c,word,c5e10000 //0c09aa90
+patch=1,EE,00212810,word,8faf00b0 //e7a00044
+patch=1,EE,00212814,word,0200202d //8faf00b0
+patch=1,EE,00212818,word,8fae00b4 //0200202d
+patch=1,EE,0021281c,word,448f0000 //8fae00b4
+patch=1,EE,00212820,word,46800020 //448f0000
+patch=1,EE,00212824,word,25effffe //448e0800
+patch=1,EE,00212828,word,46010042 //46800020
+patch=1,EE,0021282c,word,e7a10044 //25effffe
+patch=1,EE,00212830,word,afaf002c //46800860
+patch=1,EE,00212834,word,afae0030 //afaf002c
+patch=1,EE,00212838,word,3c013f40 //afae0030
+patch=1,EE,0021283c,word,44810800 //00000000
+patch=1,EE,00212840,word,4601b582 //00000000
+patch=1,EE,00212844,word,4600b583 //4600b583
+patch=1,EE,00212848,word,448e0800 //00000000
+patch=1,EE,0021284c,word,46800860 //00000000
+
+//必须码
+patch=1,EE,EC87848C,extended,14379FE8
+
+//体力不减
+patch=1,EE,2022D4D0,extended,24100000
+
+//胶卷不减
+patch=1,EE,20235368,extended,00000000
+
+//灵名单全开
+patch=1,EE,201D3E00,extended,08074F86
+patch=1,EE,201D3E04,extended,24020001
+
+//摄影point最大
+patch=1,EE,2033E968,extended,388FBA1D
+
