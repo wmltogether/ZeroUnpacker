@@ -5,13 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ZeroUnpacker"
         mc:Ignorable="d"
-        Title="PS2 Fatal Frame Unpacker" Height="439.853" Width="344.401" ResizeMode="NoResize">
-    <Grid Margin="0,0,42,36">
-        <Button x:Name="button" Content="Unpack" HorizontalAlignment="Left" Height="20" Margin="123,314,0,0" VerticalAlignment="Top" Width="99" FontSize="10.667" Click="button_Click"/>
+        Title="PS2 Fatal Frame Unpacker" Height="472.25" Width="344.401" ResizeMode="NoResize">
+    <Grid Margin="0,0,4,5">
+        <Button x:Name="button" Content="Unpack" HorizontalAlignment="Left" Height="20" Margin="38,347,0,0" VerticalAlignment="Top" Width="99" FontSize="10.667" Click="button_Click"/>
         <CheckBox x:Name="checkBox" Content="使用外部Deless解压工具" HorizontalAlignment="Left" Margin="96,259,0,0" VerticalAlignment="Top"/>
         <CheckBox x:Name="checkBox1" Content="使用内置的Less压缩库" HorizontalAlignment="Left" Margin="96,287,0,0" VerticalAlignment="Top" IsEnabled="False"/>
-        <Button x:Name="button1" Content="Patch" HorizontalAlignment="Left" Margin="123,343,0,0" VerticalAlignment="Top" Width="99" Click="button1_Click"/>
-        <Image x:Name="image" HorizontalAlignment="Left" Height="231" Margin="59,10,0,0" VerticalAlignment="Top" Width="211" Source="main.png" Stretch="None"/>
+        <Button x:Name="button1" Content="Patch" HorizontalAlignment="Left" Margin="198,347,0,0" VerticalAlignment="Top" Width="99" Click="button1_Click"/>
+        <Image x:Name="image" HorizontalAlignment="Left" Height="231" Margin="59,10,0,0" VerticalAlignment="Top" Width="220" Source="main.png" Stretch="None"/>
+        <Button x:Name="button2" Content="IML2ISO" HorizontalAlignment="Left" Margin="38,381,0,0" Width="99" Height="20" VerticalAlignment="Top" Click="button2_Click" FontSize="10.667"/>
+        <CheckBox x:Name="checkBox2" Content="Add LIMG Sector" HorizontalAlignment="Left" Margin="96,312,0,0" VerticalAlignment="Top" IsChecked="True"/>
 
     </Grid>
 </Window>

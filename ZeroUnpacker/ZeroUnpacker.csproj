@@ -88,6 +88,7 @@
     </Compile>
     <Compile Include="Base.cs" />
     <Compile Include="FatalFrame.cs" />
+    <Compile Include="iml.cs" />
     <Compile Include="ISO9660.cs" />
     <Compile Include="MainWindow.xaml.cs">
       <DependentUpon>MainWindow.xaml</DependentUpon>
@@ -130,6 +131,9 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="DeLESS.exe">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="LIMGpatcher.exe">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="Resources\Main.png" />

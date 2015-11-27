@@ -12,6 +12,7 @@ namespace ZeroUnpacker
     public static class Config
     {
         public static bool bUseExternalDeLess;
+        public static bool bUseLIMGPatch;
 
     }
     struct fileInfo
