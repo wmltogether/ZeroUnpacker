@@ -1,0 +1,29 @@
+[SYS]
+VERSION=1.00
+MEDIA=DVD
+TARGET=PS2
+DISCVERSION=1.00
+DATE=2015/11/27-15:40:14
+[/SYS]
+
+[CUE]
+DISCNAME="SLPS-25544                      "
+PRODUCER="                                "
+COPYRIGHT="TECMO,LTD.                      "
+CREATIONDATE=20151127
+PSTYPE=2
+DISCCODE=01
+[/CUE]
+
+[LOC]
+# the number of entries: 9
+#Start   End      Mode Fno Source
+0        274      0.0  0   "ZERO3.ims"
+300000   301257   0.0  0   "SLPS_255.44"
+301258   301392   0.0  0   "IOPRP300.IMG"
+301393   301393   0.0  0   "SYSTEM.CNF"
+301394   301506   0.0  0   "ZEROIRX.DIL"
+301507   301507   0.0  0   "ZEROIRX.HIL"
+301508   301643   0.0  0   "ZERO3.FHD"
+301644   1635268  0.0  0   "IMG_BD.BIN"
+[/LOC]

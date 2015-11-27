@@ -39,8 +39,8 @@ namespace ZeroUnpacker
             FileStream fs = null;
             fs = new FileStream(path, FileMode.Open, FileAccess.Read);
             arrayListLBA = new ArrayList();
-            int blockSize = 0;
-            string str = "";
+            //int blockSize = 0;
+            //string str = "";
             Dictionary<int, string> dNumDir = new Dictionary<int, string>();
             
             arrayListLBA.Sort();

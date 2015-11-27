@@ -168,8 +168,9 @@ namespace ZeroUnpacker
                 }
                 fp.Close();
                 fStream.Close();
-                img.Close();
                 IMG_Stream.Close();
+                img.Close();
+
 
 
 
